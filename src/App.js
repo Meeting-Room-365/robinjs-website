@@ -24,6 +24,7 @@ class App extends Component {
               : 'Start your sentence with "Robin", and I will reply.'
             }
           </p>
+          <button onclick="_assistant.start()">Start Listening</button>
         </div>
       </div>
     );

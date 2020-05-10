@@ -13,7 +13,8 @@ if (browser && browser.name === 'chrome') {
       require('./skills/whatsup'), 
     ],
   });
-  assistant.start();
+  // assistant.start();
+  window._assistant = assistant;
 }
 
 render(

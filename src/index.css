@@ -23,3 +23,13 @@ html, body, #root {
 .Subtitle {
   font-style: italic;
 }
+
+button {
+  background: #d63447;
+  padding: 12px 24px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  border: 0;
+}
